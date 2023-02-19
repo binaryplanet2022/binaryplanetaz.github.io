@@ -123,15 +123,15 @@ function changeGif1(){
     let g1 = document.getElementById("img7");
     let g2 = document.getElementById("img8");
 
-    g1.setAttribute("src","gif/8.gif");
-    g2.setAttribute("src","gif/7.gif");
+    g1.setAttribute("src","details/images/8.gif");
+    g2.setAttribute("src","details/images/7.gif");
 }
 function changeGif2(){
     let g1 = document.getElementById("img7");
     let g2 = document.getElementById("img8");
 
-    g1.setAttribute("src","gif/7.gif");
-    g2.setAttribute("src","gif/8.gif");
+    g1.setAttribute("src","details/images/7.gif");
+    g2.setAttribute("src","details/images/8.gif");
 }
 
 
