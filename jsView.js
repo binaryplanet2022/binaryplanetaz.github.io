@@ -211,7 +211,7 @@ function popup1(){
  
      // Show the web view inside the popup window
      var iframe = popupWindow.document.createElement("iframe");
-     iframe.setAttribute("src", "https://binaryplanetaz.blogspot.com/");
+     iframe.setAttribute("src", "https://binaryplanetaz.blogspot.com/2023/02/js-alert-for-beginners.html");
      iframe.style.width = "100%";
      iframe.style.height = "100%";
      popupWindow.document.body.appendChild(iframe);
