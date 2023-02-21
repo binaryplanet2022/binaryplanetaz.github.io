@@ -11,6 +11,8 @@ function card1(){
     let now = new Date;
     
     let hour = now.getHours();
+    var midday = (hour>=12)? "PM":"AM";
+    
     hour = (now==0) ? 12:((hour>12)?(hour-12):hour);
     hour = (hour<10) ? "0"+hour: hour;
     
@@ -20,7 +22,7 @@ function card1(){
     let sec = now.getSeconds();
     sec = (sec<10)?"0"+sec:sec;
     
-       var midday = (hour>=12)? "PM":"AM";
+       
 
     document.getElementById("card3ID").innerHTML=hour+":"+min+":"+sec+" "+midday;
     
